@@ -18,4 +18,9 @@ func main() {
 	courseRatings["react"] = 4.8
 	courseRatings["angular"] = 4.9
 	fmt.Println(courseRatings)
+
+	//Accessing the values of a map
+	for key, value := range courseRatings {
+		fmt.Println(key, ":", value)
+	}
 }
